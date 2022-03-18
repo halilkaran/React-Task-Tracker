@@ -24,7 +24,7 @@ const [task, setTask] = useState([])
   
   const chckBtns = (e) => {
     
-    if ((e.target.previousElementSibling.className != "liIDchck")) {
+    if ((e.target.previousElementSibling.className !== "liIDchck")) {
       e.target.previousElementSibling.className = "liIDchck";
     } else {
       e.target.previousElementSibling.className = "liID";
