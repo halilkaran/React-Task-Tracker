@@ -1,50 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 
- 
-
-#feedback-page {
-  text-align: center;
-}
-
-#form-main {
-  width: 100%;
-  float: center;
-  padding-top: 0px;
-   
-}
-
-#form-div {
-  background-color: rgba(72, 72, 72, 0.4);
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 35px;
-  padding-bottom: 50px;
-  width: 450px;
-  float: center;
-  left: 50%;
-  position: absolute;
-  margin-top: 30px;
-  margin-left: -220px;
-   
-}
- 
-  h2{
-    margin-top: 1rem!important;;
-    padding:0.4rem;
+h2 {
+  margin-top: 1rem !important;
+  padding: 0.4rem;
   font-weight: bold;
-  padding-top:1rem;
-  font-family:"Amatic SC", cursive;
+  padding-top: 1rem;
+  font-family: "Amatic SC", cursive;
   color: whitesmoke;
   font-weight: bold;
-  font-size:2rem;
-border: 1px solid wheat;
-text-align: center;
-
+  font-size: 2rem;
+  border: 1px solid wheat;
+  text-align: center;
 }
-
-
-
 
 .feedback-input {
   color: #3c3c3c;
@@ -57,7 +25,7 @@ text-align: center;
   padding: 13px 13px 13px 54px;
   margin-bottom: 10px;
   width: 100%;
-  
+
   box-sizing: border-box;
   border: 3px solid rgba(0, 0, 0, 0);
 }
@@ -77,11 +45,6 @@ text-align: center;
 }
 
 /* Icons ---------------------------------- */
- 
-
- 
-
- 
 
 textarea {
   width: 100%;
@@ -90,12 +53,6 @@ textarea {
   resize: vertical;
 }
 
-
-
-
-
-
- 
 .btnn {
   border: none;
   display: block;
@@ -127,109 +84,16 @@ textarea {
   height: 490%;
   width: 140%;
   background: #78c7d2;
- 
+
   transition: all 0.5s ease-in-out;
- 
+
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
 .btnn:hover:after {
- 
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.taskprint{
-    margin-top:3rem;
-}
-
-
- /*?list             */
- 
- 
-.liID, #checkID,#delID{
-  margin-top:1rem;
-}
-#listCon div .liID,
-#listCon div .liIDchck,
-#listCon div #checkID,
-#listCon div #delID {
- 
-  transition-duration: 0.8s;
-}
-
-#listCon div .liID,
-#listCon div #checkID,
-#listCon div .liIDchck,
-#listCon div #delID {
-  color: #ecf0f1;
-  background: #2c3e50;
-  float: left;
-  line-height: 60px;
-  border-bottom: none;
-  letter-spacing: 1px;
-  font-family: "Quicksand", sans-serif;
-}
-
-
-.liID {
-  height: 60px;
-  padding-left: 30px;
-  text-align: left;
-  font-size: 90%;
-  letter-spacing: -0.5px;
-  text-shadow: 0 0 15px black;
-  width: 60%;
-}
-#listCon div .liIDchck {
-  height: 60px;
-  padding-left: 30px;
-  text-align: left;
-  font-size: 90%;
-  letter-spacing: -0.5px;
-  text-shadow: 0 0 15px black;
-  width: 60%;
-  text-decoration: line-through;
-}
-
-#listCon div .liID:hover {
-  text-shadow: 0 0 10px white;
-}
-#listCon div .liIDchck:hover {
-  text-shadow: 0 0 10px white;
-}
-#listCon div #checkID {
-  cursor: pointer;
-  height: 60px;
-  text-align: center;
-  font-size: 80%;
-  width: 14%;
-}
-#listCon div #checkID:hover {
-  text-shadow: 0 0 15px white;
-  font-size: 100%;
-}
-#listCon div #delID {
-  cursor: pointer;
-  height: 60px;
-  text-align: center;
-  font-size: 80%;
-  text-decoration: none !important;
-  width: 14%;
-}
-#listCon div #delID:hover {
-  text-shadow: 0 0 15px white;
-  font-size: 100%;
-}
-
-#fadeInID {
-  position: relative;
-}
-#fadeInID:after {
-  position: absolute;
-  left: 50%;
-  top: 80%;
-  border-bottom: 1px solid grey;
-  transform: translate(-50%, -50%);
-  content: "";
-  width: 350px;
+.taskprint {
+  margin-top: 3rem;
 }

@@ -8,8 +8,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
-
+ 
 /*?? BUTTNN */
  
 .btnn {
@@ -53,3 +52,26 @@ body {
  
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
+
+#form-main {
+  width: 100%;
+  float: center;
+  padding-top: 0px;
+   
+}
+
+#form-div {
+  background-color: rgba(72, 72, 72, 0.4)!important;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: center;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -220px;
+   
+}
+ 
